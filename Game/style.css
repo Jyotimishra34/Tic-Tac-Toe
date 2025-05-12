@@ -1,1 +1,57 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* vmin (Viewport Minimum)
+1vmin = 1% of the smaller of the viewport width or height. */
+
+/* Used in Flexbox layouts, flex-wrap controls whether flex items
+ are forced into a single line or allowed to wrap onto multiple lines. */
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;    /* equals 16px */
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color: #b0413b;
+    background-color: #ffffc7;
+}
+
+/* The opacity property controls how transparent an element is.*/
+/* opacity: 1;   fully visible */
+/* opacity: 0.5; 50% transparent */
+/* opacity: 0;   fully invisible */
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
