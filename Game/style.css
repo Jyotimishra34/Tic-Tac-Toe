@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #548687;
+    background-color: 	#d1a7a7;
     text-align: center;
 }
 .container{
@@ -39,7 +39,7 @@ body{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     font-size: 8vmin;
     color: #b0413b;
-    background-color: #ffffc7;
+    background-color: #f5deb3 ;
 }
 
 /* The opacity property controls how transparent an element is.*/

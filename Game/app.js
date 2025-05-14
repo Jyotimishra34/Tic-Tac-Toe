@@ -31,6 +31,7 @@ boxes.forEach((box) =>{
         console.log("box was clicked");
         if(turn0 === true){  //this is the turn of player 0
             box.innerText = "0";
+            box.style. color = "#f2ab15";
             turn0 = false;    //it should not be true for the next turn (for player X)
         }
          else{    // This is the turn of player X
@@ -65,6 +66,7 @@ const enableBoxes = () => {
 //function to show the winner
 const showWinner = (winner) => {
     msg.innerText = `Congratulations! Winner is ${winner}`;
+     msg.style.color = "#228b22";
     msgContainer.classList.remove("hide");
     disableBoxes();  //disable all the boxes after getting a winner
 };
